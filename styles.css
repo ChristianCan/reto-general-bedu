@@ -194,3 +194,52 @@ nav > ul > li > a {
   border-radius: 5px;
   box-shadow: 0px 0px 10px 0px gray;
 }
+
+.section3-container-padre {
+  margin-bottom: 250px;
+}
+
+.section3-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.section3-title-container > h1 {
+  font-family: vesterbroextrabold, Arial, sans-serif;
+  font-size: 40px;
+  color: #025157;
+  font-weight: 400 !important;
+}
+
+.section3-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section3-container-card {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  height: 350px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 35px 0;
+}
+
+.section3-container-card img {
+  width: 20%;
+}
+
+.section3-container-card h4 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.section3-container-card p {
+  text-align: center;
+  color: gray;
+}

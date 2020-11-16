@@ -56,6 +56,7 @@ nav > ul > li > a {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .section1-container-padre {
   margin-bottom: 300px;
 }
@@ -331,4 +332,41 @@ nav > ul > li > a {
 
 .section4-container-text button {
   padding: 14px 18px;
+=======
+.section5-container-padre > h1 {
+  font-family: vesterbroextrabold, Arial, sans-serif;
+  font-size: 40px;
+  color: #025157;
+  font-weight: 400 !important;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section5-container-table {
+  display: grid;
+  grid-template-columns: 55% 15% 15% 15%;
+  grid-template-rows: repeat(7, 1fr);
+  grid-gap: 1px;
+  text-align: center;
+}
+
+.section5-container-table h3 {
+  font-family: vesterbroextrabold, Arial, sans-serif;
+  font-size: 25px;
+  color: #025157;
+}
+
+.section5-container-table p {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.section5-container-table h4 {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.section5-container-table > div {
+  border: 1px solid gray;
+>>>>>>> section5
 }

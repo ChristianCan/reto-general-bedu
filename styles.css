@@ -55,3 +55,100 @@ nav > ul > li > a {
   color: #025157;
   text-decoration: none;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 20px;
+}
+
+.footer-container-subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container h4 {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  color: #025157;
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  margin-bottom: 20px;
+}
+
+.footer-container-subscribe p {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.footer-container-subscribe-form {
+  margin-bottom: 150px;
+}
+
+.footer-container-subscribe > form {
+  display: flex;
+}
+
+.footer-container-subscribe button {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  color: white;
+  background-color: #025157;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.footer-container-subscribe input {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.footer-container-subscribe-logos img {
+  margin: 0 10px;
+}
+
+#capterra {
+  width: 13%;
+}
+
+.footer-container-products {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container-matcha {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container-resources {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container-resources > p {
+  margin-top: 60px;
+}
+
+.menu li {
+  list-style-type: none;
+  margin: 20px 0;
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  color: black;
+}
+
+.menu-item > a:hover {
+  color: #67b54b;
+}

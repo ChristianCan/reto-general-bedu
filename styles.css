@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+#body {
+  background-color: #fff;
+}
+
+.header-container-padre {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar {
+  width: 70%;
+  text-align: center;
+}
+
+nav > ul > li {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  font-size: 13px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #025157;
+}
+
+.actions button {
+  color: white;
+  background-color: #025157;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.actions > button:hover {
+  background-color: #67b54b;
+}
+
+.actions > a {
+  font-size: 13px;
+  color: #025157;
+  text-decoration: none;
+}

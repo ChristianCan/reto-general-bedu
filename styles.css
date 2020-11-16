@@ -369,3 +369,351 @@ nav > ul > li > a {
 .section5-container-table > div {
   border: 1px solid gray;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 20px;
+}
+
+.footer-container-subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container h4 {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  color: #025157;
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  margin-bottom: 20px;
+}
+
+.footer-container-subscribe p {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.footer-container-subscribe-form {
+  margin-bottom: 150px;
+}
+
+.footer-container-subscribe > form {
+  display: flex;
+}
+
+.footer-container-subscribe button {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  color: white;
+  background-color: #025157;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.footer-container-subscribe input {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.footer-container-subscribe-logos img {
+  margin: 0 10px;
+}
+
+#capterra {
+  width: 13%;
+}
+
+.footer-container-products {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container-matcha {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container-resources {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container-resources > p {
+  margin-top: 60px;
+}
+
+.menu li {
+  list-style-type: none;
+  margin: 20px 0;
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  color: black;
+}
+
+.menu-item > a:hover {
+  color: #67b54b;
+}
+
+/*iPhone 6, 7 ,8 */
+
+@media (max-width: 575px) {
+  .navbar {
+    display: none;
+  }
+  .actions {
+    display: none;
+  }
+
+  .section1-container-text {
+    width: 100%;
+    align-items: center;
+  }
+
+  .section1-container-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section1-container-video h1 {
+    font-size: 30px;
+  }
+
+  .section1-container-image-video {
+    width: 80%;
+  }
+
+  .section1-brands-container-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section1-brands-container-logos img {
+    width: 20%;
+    margin: 10px;
+  }
+
+  .section2-container-padre {
+    margin-bottom: 100px;
+  }
+
+  .section2-title-container {
+    margin: 0px;
+  }
+
+  .section2-title-container > h1 {
+    margin-top: 100px;
+    font-size: 30px;
+  }
+
+  .section2-title-container > p {
+    text-align: center;
+  }
+
+  .section2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .section3-container-padre {
+    margin-bottom: 100px;
+  }
+
+  .section3-title-container > h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .section3-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section3-container-card {
+    width: 100%;
+    padding: 35px 0 0;
+  }
+
+  .section3-container-card img {
+    width: 22%;
+  }
+
+  .section3-container-card h4 {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .section3-container-card p {
+    text-align: center;
+    color: gray;
+  }
+
+  .section4-container-padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .section4-container-card {
+    width: 100%;
+  }
+
+  .section4-container-card-text {
+    padding: 10px 15px 30px;
+  }
+
+  .section4-container-card > img {
+    width: 50%;
+    padding: 10px 15px 30px;
+    align-self: center;
+  }
+
+  .section4-container-card-logo-text img {
+    scale: 0.5;
+  }
+
+  .section4-container-card-logo-text p {
+    width: 70%;
+  }
+
+  .section4-container-card button {
+    padding: 0px;
+    width: 100%;
+    height: 20%;
+  }
+
+  .section4-container-text {
+    margin: 0 20px;
+    width: 90%;
+  }
+
+  .section4-container-text h1 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .section4-container-text p {
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .section4-container-text button {
+    padding: 0px;
+    width: 100%;
+    height: 10%;
+  }
+
+  .section5-container-padre > h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .section5-container-table {
+    margin: 0 5px;
+    grid-template-columns: 40% 20% 20% 20%;
+    grid-gap: 0px;
+  }
+
+  .section5-container-table h3 {
+    font-size: 20px;
+  }
+
+  .section5-container-table p {
+    font-size: 12px;
+  }
+
+  .section5-container-table h4 {
+    font-size: 16px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 50px 20px 10px;
+  }
+
+  .footer-container-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .footer-container-subscribe p {
+    text-align: center;
+  }
+
+  .footer-container-subscribe-form {
+    margin-bottom: 30px;
+  }
+
+  .footer-container-subscribe > form {
+    display: flex;
+  }
+
+  .footer-container-subscribe-logos img {
+    margin: 0 2px;
+  }
+
+  .footer-container-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container-matcha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container-resources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container-resources > p {
+    display: none;
+  }
+
+  .menu li {
+    display: inline;
+    list-style-type: none;
+    margin: 0px 5px;
+  }
+
+  .menu-item a {
+    text-decoration: none;
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+    color: black;
+  }
+
+  .menu-item > a:hover {
+    color: #67b54b;
+  }
+}

@@ -55,3 +55,87 @@ nav > ul > li > a {
   color: #025157;
   text-decoration: none;
 }
+
+.section1-container-padre {
+  margin-bottom: 300px;
+}
+
+.section1-container-video {
+  display: flex;
+  margin-left: 20px;
+}
+
+.section1-container-video h1 {
+  font-family: vesterbroextrabold, Arial, sans-serif;
+  font-size: 60px;
+  color: #025157;
+  font-weight: 400 !important;
+}
+
+.section1-container-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#blog {
+  margin: 40px 0px;
+}
+
+.section1-container-text p {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  text-align: left;
+}
+
+.section1-container-image-video {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.section1-container-text-button-img {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.section1-container-text-button-img button {
+  color: white;
+  background-color: #67b54b;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.section1-container-text-promotional p {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.section1-brands-container p {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  color: gray;
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  font-weight: 700;
+  margin: 70px 0 40px;
+  text-align: center;
+}
+
+.section1-brands-container-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.section1-brands-container-logos img {
+  display: inline-flex;
+  margin-right: 60px;
+}

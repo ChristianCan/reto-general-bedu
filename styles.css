@@ -717,3 +717,197 @@ nav > ul > li > a {
     color: #67b54b;
   }
 }
+
+/*iPad*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .header-container-padre {
+    height: 75px;
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+  }
+
+  .navbar {
+    width: auto;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    text-align: center;
+    margin: 4px;
+  }
+
+  .actions {
+    display: flex;
+  }
+
+  .actions button {
+    padding: 5px;
+    margin-right: 25px;
+  }
+
+  .actions > a {
+    margin: 10px;
+  }
+
+  .section1-container-padre {
+    margin-bottom: 100px;
+  }
+
+  .section1-container-video h1 {
+    font-size: 40px;
+  }
+
+  .section1-container-image-video {
+    width: 50%;
+  }
+
+  .section1-container-image-video img {
+    scale: 0.8;
+  }
+
+  .section1-brands-container p {
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+    color: gray;
+    font-size: 13px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    margin: 70px 0 40px;
+    text-align: center;
+  }
+
+  .section1-brands-container-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 600px;
+    height: 60px;
+    margin: 0 auto;
+  }
+
+  .section1-brands-container-logos img {
+    display: inline-flex;
+    margin: 0px 10px;
+  }
+
+  .section2-container-padre {
+    margin-bottom: 100px;
+  }
+
+  .section2-title-container {
+    margin: 20px;
+  }
+
+  .section2-title-container > h1 {
+    font-size: 40px;
+  }
+
+  .section2-title-container > p {
+    margin: 0;
+  }
+
+  .imagen {
+    font-size: 16px;
+  }
+
+  .section3-container-padre {
+    margin-bottom: 100px;
+  }
+
+  .section3-title-container {
+    margin-bottom: 25px;
+  }
+
+  .section3-title-container > h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .section3-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .section3-container-card {
+    width: 22.5%;
+    height: auto;
+  }
+
+  .section4-container-padre {
+    margin-bottom: 100px;
+  }
+
+  .section4-container-card {
+    width: 40%;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .section4-container-card > img {
+    width: 75%;
+    align-self: center;
+    margin-top: 20px;
+  }
+
+  .section4-container-card-logo-text {
+    height: auto;
+  }
+
+  .section4-container-card-logo-text img {
+    scale: auto;
+  }
+
+  .section4-container-card button {
+    padding: 14px 40px;
+  }
+
+  .section4-container-text {
+    margin-left: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section4-container-text p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .section4-container-text button {
+    padding: 14px 18px;
+  }
+
+  .section5-container-padre {
+    margin-bottom: 50px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+  }
+
+  .footer-container-subscribe-logos img {
+    margin: 0px 5px;
+  }
+
+  #capterra {
+    width: 15%;
+  }
+
+  .footer-container-products {
+    margin: 10px;
+  }
+
+  .footer-container-matcha {
+    margin: 10px;
+  }
+
+  .footer-container-resources {
+    margin: 10px;
+  }
+  .menu li {
+    margin: 20px 0;
+  }
+}
